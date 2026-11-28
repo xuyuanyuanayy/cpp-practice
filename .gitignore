@@ -1,0 +1,12 @@
+.vscode/extensions.json
+
+# C++ 编译产物
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.dll
+
+# VSCode 运行日志
+debug.log

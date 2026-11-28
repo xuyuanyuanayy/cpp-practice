@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "g++ 编译当前文件",
+      "type": "shell",
+      "command": "D:/Dev/mingw64/bin/g++.exe",
+      "args": [
+        "-g",
+        "-Wall",
+        "-Wextra",
+        "-std=c++17",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe"
+      ],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
